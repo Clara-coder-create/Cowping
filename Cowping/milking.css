@@ -1,0 +1,45 @@
+body{
+    background-image: url(cowprint.jpg);
+}
+.main {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+
+    display: grid;
+    grid-template-columns: 200px 900px;
+    grid-gap: 5px;
+}
+
+h1.main-title {
+    /* Span from column 1 to end of columns */
+    grid-column: 1 / -1;
+    text-align: center;
+    border: solid fuchsia 2px;
+    background-color: aliceblue;
+    font-family: 'Lobster', cursive;
+
+}
+h2{
+    font-family: 'Lobster', cursive;
+}
+
+/* Add borders to make the size and location of the boxes more obvious */
+.facts {
+    border: 2px solid black;
+}
+
+.content {
+    text-align: left;
+    border: 5px dotted black;
+    border-left: 0px;
+    text-align: center;
+}
+
+h2#attraction{
+    text-align: left;
+}
+
+p#descrip{
+    text-align: left;
+}
+
