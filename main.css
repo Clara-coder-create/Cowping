@@ -6,26 +6,69 @@ div.containermap{
   background-size: cover;
 }
 div.location1{
-  transform: perspective(30px) rotateX(20deg) rotateZ(-45deg);
   transform-origin: 50% 50%;
-  border-radius: 50% 50% 50% 0;
+  border-radius: 50% 50% 50% 50%;
   padding: 0 3px 3px 0;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   background: blue;
-  position: absolute;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
   left: 20%;
   top: 50%;
   margin: -2.2em o o -1.3em;
   box-shadow: -1px 1px 4px rgb(0 0 0 / 50%);
 }
+.location1 .popuptext {
+  background-image: url(https://farmhouseguide.com/wp-content/uploads/2020/03/milking-a-farm-cow.jpg);
+  background-size: cover;
+  visibility: hidden;
+  width: 160px;
+  height: 100px;
+  background-color: #555;
+  color: rgb(24, 22, 22);
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.location1 .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.location1 .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 2s;
+}
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
 div.location2{
-  transform: perspective(30px) rotateX(20deg) rotateZ(-45deg);
   transform-origin: 50% 50%;
-  border-radius: 50% 50% 50% 0;
+  border-radius: 50% 50% 50% 50%;
   padding: 0 3px 3px 0;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   background: blue;
   position: absolute;
   left: 70%;
@@ -33,13 +76,19 @@ div.location2{
   margin: -2.2em o o -1.3em;
   box-shadow: -1px 1px 4px rgb(0 0 0 / 50%);
 }
+div.popup{
+  transform: perspective(30px) rotateX(-20deg) rotateZ(50deg);
+  position: relative;
+  display: inline-block;
+  cursor:pointer;
+}
+
 div.location3{
-  transform: perspective(30px) rotateX(20deg) rotateZ(-45deg);
   transform-origin: 50% 50%;
-  border-radius: 50% 50% 50% 0;
+  border-radius: 50% 50% 50% 50%;
   padding: 0 3px 3px 0;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   background: blue;
   position: absolute;
   left: 40%;
