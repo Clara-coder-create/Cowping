@@ -1,0 +1,49 @@
+div.containermap{
+  background-image: url(https://image.shutterstock.com/image-vector/vector-illustration-green-farm-top-260nw-712272334.jpg);
+  height: 750px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.location1{
+  transform: perspective(30px) rotateX(20deg) rotateZ(-45deg);
+  transform-origin: 50% 50%;
+  border-radius: 50% 50% 50% 0;
+  padding: 0 3px 3px 0;
+  width: 30px;
+  height: 30px;
+  background: blue;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  margin: -2.2em o o -1.3em;
+  box-shadow: -1px 1px 4px rgb(0 0 0 / 50%);
+}
+div.location2{
+  transform: perspective(30px) rotateX(20deg) rotateZ(-45deg);
+  transform-origin: 50% 50%;
+  border-radius: 50% 50% 50% 0;
+  padding: 0 3px 3px 0;
+  width: 30px;
+  height: 30px;
+  background: blue;
+  position: absolute;
+  left: 70%;
+  top: 50%;
+  margin: -2.2em o o -1.3em;
+  box-shadow: -1px 1px 4px rgb(0 0 0 / 50%);
+}
+div.location3{
+  transform: perspective(30px) rotateX(20deg) rotateZ(-45deg);
+  transform-origin: 50% 50%;
+  border-radius: 50% 50% 50% 0;
+  padding: 0 3px 3px 0;
+  width: 30px;
+  height: 30px;
+  background: blue;
+  position: absolute;
+  left: 40%;
+  top: 80%;
+  margin: -2.2em o o -1.3em;
+  box-shadow: -1px 1px 4px rgb(0 0 0 / 50%);
+}
