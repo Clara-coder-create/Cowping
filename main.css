@@ -89,7 +89,7 @@ div.location1{
   padding: 0 3px 3px 0;
   width: 20px;
   height: 20px;
-  background: blue;
+  background: brown;
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -129,7 +129,7 @@ div.location1{
 .location1 .show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
-  animation: fadeIn 2s;
+  animation: fadeIn 3s;
 }
 @-webkit-keyframes fadeIn {
   from {opacity: 0;}
@@ -147,7 +147,7 @@ div.location2{
   padding: 0 3px 3px 0;
   width: 20px;
   height: 20px;
-  background: blue;
+  background: brown;
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -186,7 +186,7 @@ div.location2{
 .location2 .show{
   visibility: visible;
   -webkit-animation: fadeIn 1s;
-  animation: fadeIn 2s;
+  animation: fadeIn 3s;
 }
 div.location3{
   transform-origin: 50% 50%;
@@ -194,7 +194,7 @@ div.location3{
   padding: 0 3px 3px 0;
   width: 20px;
   height: 20px;
-  background: blue;
+  background: brown;
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -233,7 +233,7 @@ div.location3{
 .location3 .show{
   visibility: visible;
   -webkit-animation: fadeIn 1s;
-  animation: fadeIn 2s;
+  animation: fadeIn 3s;
 }
 
 div.location4{
@@ -242,7 +242,7 @@ div.location4{
   padding: 0 3px 3px 0;
   width: 20px;
   height: 20px;
-  background: blue;
+  background: brown;
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -281,7 +281,7 @@ div.location4{
 .location4 .show{
   visibility: visible;
   -webkit-animation: fadeIn 1s;
-  animation: fadeIn 2s;
+  animation: fadeIn 3s;
 }
 
 div.location5{
@@ -290,7 +290,7 @@ div.location5{
   padding: 0 3px 3px 0;
   width: 20px;
   height: 20px;
-  background: blue;
+  background: brown;
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -329,7 +329,7 @@ div.location5{
 .location5 .show{
   visibility: visible;
   -webkit-animation: fadeIn 1s;
-  animation: fadeIn 2s;
+  animation: fadeIn 3s;
 }
 mark{
   background-color: aliceblue;
