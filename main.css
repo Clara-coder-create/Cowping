@@ -64,7 +64,6 @@ h1{
 .cell-0{
   grid-row: 1;
   grid-column: 1/4;
-  background-image: url();
   border-radius: 15px 15px 15px 15px;
 }
 .cell-1{
@@ -102,13 +101,34 @@ h2{
 }
 
 .cell-4{
-  grid-row: 4;
+  grid-row: 1;
   grid-column: 1/4;
-  background-color: aquamarine;
+  background-color: rgba(0, 0, 0, 0.616);
   padding: auto;
   padding-left: 20px;
   line-height: 2;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 0 0 0 0;
+  margin-left: -80px;
+  margin-top: 30px;
+  margin-right: -80px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+  grid-template-rows: 1fr;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+.cell-4 .instagram{
+  padding-top: 20px;
+}
+.cell-4 .facebook{
+  padding-top: 20px;
+}
+.cell-4 .Phone{
+  padding-top: 20px;
+}
+.cell-4 .gmail{
+  padding-top: 20px;
 }
 
 /*.contact.inf{
