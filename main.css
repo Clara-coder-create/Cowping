@@ -81,7 +81,7 @@ h1{
 .cell-4{
   grid-row: 4;
   grid-column: 1/4;
-  background-color: aquamarine;
+  background-color: tan;
   padding: auto;
   padding-left: 20px;
   line-height: 2;
