@@ -204,7 +204,7 @@ div.location3{
   box-shadow: -1px 1px 4px rgb(0 0 0 / 50%);
 }
 .location3 .popuptext{
-  background-image: url(https://cdn.shopify.com/s/files/1/1521/8260/articles/free-to-use-sounds-XtQNZRTIMYc-unsplash_1024x1024.jpg?v=1566520262);
+  background-image: url(https://stylecaster.com/wp-content/uploads/2016/04/sound-bath-meditation.jpg?w=1024);
   background-size: cover;
   visibility: hidden;
   width: 160px;
@@ -252,6 +252,7 @@ div.location4{
   box-shadow: -1px 1px 4px rgb(0 0 0 / 50%);
 }
 .location4 .popuptext{
+  background-image: url(https://assets.newatlas.com/dims4/default/9da7561/2147483647/strip/true/crop/2000x1340+0+0/resize/1433x960!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Fae%2F5f%2F98d651ec4c80933769eef3de20a1%2Fdepositphotos-5576188-l-2015.jpg);
   background-size: cover;
   visibility: hidden;
   width: 160px;
@@ -299,6 +300,7 @@ div.location5{
   box-shadow: -1px 1px 4px rgb(0 0 0 / 50%);
 }
 .location5 .popuptext{
+  background-image: url(https://inhabitat.com/files/poobrick-ed01.jpg);
   background-size: cover;
   visibility: hidden;
   width: 160px;
@@ -328,4 +330,8 @@ div.location5{
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 2s;
+}
+mark{
+  background-color: aliceblue;
+  padding: 5px;
 }
